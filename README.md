@@ -1,7 +1,7 @@
-# infra-example
+# YandexInfrastructure homework
 
-[![Build Status](https://travis-ci.org/olesyasidyaka/YandexInfrastructure.svg?branch=master)](https://travis-ci.org/andre487/infra-example)
-[![bitHound Overall Score](https://www.bithound.io/github/andre487/infra-example/badges/score.svg)](https://www.bithound.io/github/andre487/infra-example)
+[![Build Status](https://travis-ci.org/olesyasidyaka/YandexInfrastructure.svg?branch=master)](https://travis-ci.org/olesyasidyaka/YandexInfrastructure)
+[![bitHound Overall Score](https://www.bithound.io/github/olesyasidyaka/YandexInfrastructure/badges/score.svg)](https://www.bithound.io/github/olesyasidyaka/YandexInfrastructure)
 
 Пример проекта с настроенной инфраструктурой. 
 
