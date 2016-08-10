@@ -1,8 +1,8 @@
 language: node_js
 node_js:
   - "6"
-  - "6.1"
 deploy:
   provider: heroku
+  email: olesya.sidyaka@gmail.com
   api_key:
-    secure: "3fe740fa-bb70-4cad-9e35-798a0d3ace94"
+    secure: "91b570da-9179-45d6-a7ef-75e886fa94b9"
