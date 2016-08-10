@@ -22,6 +22,6 @@ app.get('/', function(request, response) {
 });
 
 app.listen(app.get('port'), function() {
-	console.log('test log2');
+	console.log('test log');
 	console.log('Cool faces on port', app.get('port'));
 });

@@ -1,8 +1,8 @@
 {
-  "name": "infra-example",
+  "name": "YandexInfrastructure",
   "version": "1.0.0",
   "description": "Пример сервера для проекта с инфраструктурой",
-  "main": "run.js",
+  "main": "server.js",
   "scripts": {
     "heroku:create-hosting": "heroku create",
     "heroku:deploy": "git push heroku +master",
@@ -21,7 +21,6 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "nodemon": "^1.9.2"
+    "eslint": "^3.0.1"
   }
 }
