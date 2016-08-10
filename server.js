@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
     console.time('render');
-    response.render('index', { face: getFace() });
+    response.render('index', { face1: getFace(), face2: getFace() });
     console.timeEnd('render');
 });
 
