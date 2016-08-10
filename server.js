@@ -16,11 +16,11 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-    console.time('render');
-    response.render('index', { face1: getFace(), face2: getFace() });
-    console.timeEnd('render');
+	console.time('render');
+	response.render('index', { face1: getFace(), face2: getFace() });
+	console.timeEnd('render');
 });
 
 app.listen(app.get('port'), function() {
-    console.log('Cool faces on port', app.get('port'));
+	console.log('Cool faces on port', app.get('port'));
 });
