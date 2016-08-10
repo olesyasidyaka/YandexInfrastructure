@@ -1,4 +1,8 @@
 .page {
-    font: 16px monospace;
+    font: 30px monospace;
     white-space: pre;
+}
+
+.face {
+	width: 50%;
 }
